@@ -1,0 +1,77 @@
+        body {
+            background-color: rgb(255, 225, 10);
+            position: relative;
+            left: 100px;
+        }
+        form { box-sizing: border-box; }
+
+        input { background-color:white; } 
+    
+        #id { background-color: whitesmoke; }
+
+        .hid{
+            width: 250px;
+            height: 40px;
+            border-color:whitesmoke;
+        }
+        #id{
+            position: relative;
+            width: 258px;
+            height: 45px;
+            border-color:whitesmoke;
+            color:gray;
+            top: 5px;
+            transition-property: 1s;
+        }
+        .button, #hoo{
+            position: relative;
+            width: 15px;
+            height: 15px;
+            font-size: 1rem;
+            top: 10px;
+            color:gray;
+        }
+        .img{
+            position: relative;
+            margin: 15px;
+            background-image:url('카톡.jpg');
+            font-size: 150px;
+            background-repeat: no-repeat;
+            }
+
+        #low>label{
+            position: relative;
+            color:gray;
+            top: 150px
+            }
+        .ui, .pi, .oi, .xi{
+                position: relative;
+                color:gray;
+                left: 200px;
+                margin: 5px;
+            }
+        h1{
+            position: relative;
+            color: white;
+            font-size: 1.5rem;
+            top: 10rem;
+            left: 5%;
+            display: none;
+        }
+        @media(min-width:451px) {
+            body{
+              background-color: black;
+            }
+            form{
+                display: none;
+            }
+            #yi{
+                display: none;
+            }
+            .img{
+                display: none;
+            }
+            h1{
+                display: inline;
+            }
+        }

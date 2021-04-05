@@ -1,0 +1,52 @@
+body{
+    background-image: url(./7e4e0fe62b2e5e54d8fd0d1c680e0d33.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hight{
+    color: white;
+    display: block;
+    padding-top: 15px;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40px;
+    width: 100%;
+}
+.Home{
+    margin-left: 50px;
+    margin-right: 700px;
+}
+.About, .Sklls, .Project, .Til{
+    margin-right: 100px;
+}
+h1, h2{
+    color: white;
+    text-align: center;
+}
+.null{
+    margin-top: 30%;
+    height: 30rem;
+}
+main{
+    background-color: white;
+}
+.toll{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-position-y: -450px;
+    background-image: url(./Ice-cave-light_3840x2160.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: rgba(255,255,255);
+    text-align: center;
+    font-size: 1.5rem;
+}
+.floor{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
